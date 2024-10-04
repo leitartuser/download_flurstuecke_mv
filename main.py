@@ -80,4 +80,4 @@ for gemarkung in gemarkungen:
     # pd.set_option('display.max_columns', 500)
 
     kmlfile_path = gemarkung_folder + f"{gemarkung_id}.kml"
-    job = shp_to_kml(shapefile_path, kmlfile_path)   # main-function
+    job = shp_to_kml(shapefile_path, kmlfile_path)   # main-function-does-the-job
